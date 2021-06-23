@@ -1,0 +1,32 @@
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --title: clamp(20px, 4vw, 36px);
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a,
+a:active,
+a:hover {
+  color: unset;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.btn:hover {
+  color: inherit;
+}
